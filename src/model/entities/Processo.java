@@ -21,6 +21,10 @@ public class Processo {
 		cliente = _cliente;
 	}
 
+//	public String toString() {
+//		return status.toString();
+//	}
+	
 	public Date getData() {
 		return data;
 	}

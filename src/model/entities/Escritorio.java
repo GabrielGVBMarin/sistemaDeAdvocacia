@@ -1,12 +1,14 @@
 package model.entities;
 
+import java.util.ArrayList;
+
 public class Escritorio {
     private String nome;
     private String endereco;
     private String cep;
     private String cnpj;
     private String responsavel;
-    // arraylist de advogados
+    private ArrayList<Advogado> advogados = new ArrayList<Advogado>();
 
 
     public Escritorio(String nome, String endereco, String cep, String cnpj, String responsavel) {
@@ -17,6 +19,14 @@ public class Escritorio {
         this.responsavel = responsavel;
     }
 
+    public ArrayList<Advogado> getAdvogados() {
+    	return this.advogados;
+    }
+    
+    public void addAdvogado(Advogado advogado) {
+    	advogados.add(advogado);
+    }
+    
     public String getNome() {
         return nome;
     }

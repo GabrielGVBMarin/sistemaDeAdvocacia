@@ -18,7 +18,7 @@ public class Duvida {
 		titulo = _titulo;
 		descricao = _descricao;
 	}
-
+	
 	public ArrayList<Resposta> getRespostas() {
 		return respostas;
 	}

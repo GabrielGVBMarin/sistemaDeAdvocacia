@@ -6,14 +6,22 @@ public class Administrador {
 
     private String email;
     private String senha;
-    // tem o escritorio
+    private Escritorio escritorio;
     
     public Administrador(String email, String senha) {
         this.email = email;
         this.senha = senha;
     }
 
-    public String getEmail() {
+    public Escritorio getEscritorio() {
+		return escritorio;
+	}
+
+	public void setEscritorio(Escritorio escritorio) {
+		this.escritorio = escritorio;
+	}
+
+	public String getEmail() {
         return email;
     }
 

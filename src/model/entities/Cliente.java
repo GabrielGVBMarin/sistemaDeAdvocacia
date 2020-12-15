@@ -25,8 +25,12 @@ public class Cliente {
 		
 	}
 	
-	public void consultaProcessos() {
-		
+	public void adicionaProcesso(Processo processo) {
+		processos.add(processo);
+	}
+	
+	public ArrayList<Processo> consultaProcessos() {
+		return processos;
 	}
 	
 	public void criaDuvida(String titulo, String descricao, ArrayList<String> nomeDosAnexos) {
