@@ -1,4 +1,4 @@
-package advocacia;
+package model.entities;
 
 import java.util.List;
 
@@ -6,7 +6,8 @@ public class Administrador {
 
     private String email;
     private String senha;
-
+    // tem o escritorio
+    
     public Administrador(String email, String senha) {
         this.email = email;
         this.senha = senha;

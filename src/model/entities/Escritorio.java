@@ -1,4 +1,4 @@
-package advocacia;
+package model.entities;
 
 public class Escritorio {
     private String nome;
@@ -6,6 +6,7 @@ public class Escritorio {
     private String cep;
     private String cnpj;
     private String responsavel;
+    // arraylist de advogados
 
 
     public Escritorio(String nome, String endereco, String cep, String cnpj, String responsavel) {
